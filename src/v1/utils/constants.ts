@@ -4,6 +4,7 @@ export const ALLOWED_PERMISSION_SOCKET = [
   "configurations",
   "about",
   "organizations",
+  "projects",
 ];
 export const RoleEnum = {
   super: 1,
