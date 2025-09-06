@@ -1,0 +1,116 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  // output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+// USERS table
+model users {
+  id                BigInt        @id @default(autoincrement())
+  full_name         String
+  username          String        @unique
+  email_id          BigInt?       
+  email             emails?       @relation(fields: [email_id], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  password          String
+  profile           String?
+  role_id           BigInt
+  role              roles         @relation(fields: [role_id], references: [id], onUpdate: Cascade, onDelete: NoAction)
+  contact_id        BigInt?
+  contact           contacts?     @relation(fields: [contact_id], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  job_id            BigInt?
+  job               model_jobs?   @relation(fields: [job_id], references: [id], onUpdate: Cascade, onDelete: NoAction)
+  division_id       BigInt
+  division          divisions     @relation(fields: [division_id], references: [id], onUpdate: Cascade, onDelete: NoAction)
+  email_verified_at DateTime?
+  remember_token    String?
+  created_at        DateTime      @default(now())
+  updated_at        DateTime      @updatedAt
+
+  @@index([email_id, job_id, role_id, username, division_id])
+}
+
+// EMAILS
+model emails {
+  id        BigInt   @id @default(autoincrement())
+  value     String   @unique
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  users     users[]
+}
+
+// ROLES
+model roles {
+  id        BigInt   @id @default(autoincrement())
+  disable   Boolean  @default(false)
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  users     users[]
+}
+
+// CONTACTS
+model contacts {
+  id        BigInt   @id @default(autoincrement())
+  value     String   @unique
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  users     users[]
+}
+
+// MODEL_JOBS
+model model_jobs {
+  id        BigInt             @id @default(autoincrement())
+  created_at DateTime          @default(now())
+  updated_at DateTime          @updatedAt
+
+  users     users[]
+  translations model_job_trans[]
+}
+
+// MODEL_JOB_TRANS
+model model_job_trans {
+  id           BigInt       @id @default(autoincrement())
+  value        String
+  model_job_id BigInt
+  language_name String
+
+  model_job   model_jobs    @relation(fields: [model_job_id], references: [id], onUpdate: Cascade, onDelete: NoAction)
+  language    languages     @relation(fields: [language_name], references: [name], onUpdate: Cascade, onDelete: NoAction)
+
+  created_at  DateTime      @default(now())
+  updated_at  DateTime      @updatedAt
+
+  @@index([language_name, model_job_id])
+  @@unique([language_name, value])
+}
+
+// LANGUAGES (inferred from usage — needs actual migration)
+model languages {
+  name       String          @id
+  created_at DateTime        @default(now())
+  updated_at DateTime        @updatedAt
+
+  job_translations model_job_trans[]
+}
+
+// DIVISIONS
+model divisions {
+  id        BigInt   @id @default(autoincrement())
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  users     users[]
+}

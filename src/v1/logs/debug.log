@@ -1,0 +1,534 @@
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'GET / 404 2ms',
+  timestamp: '2025-08-25T05:13:59.129Z'
+}
+{
+  meta: {
+    req: {
+      url: '/PSIA/System/deviceInfo',
+      headers: {
+        host: '172.16.174.70:8001',
+        'accept-encoding': 'deflate, gzip',
+        connection: 'close',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: 'gzip, deflate',
+        'accept-language': 'en-US,en;q=0.8',
+        'cache-control': 'max-age=0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/PSIA/System/deviceInfo',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'GET /PSIA/System/deviceInfo 404 2ms',
+  timestamp: '2025-08-25T05:14:05.612Z'
+}
+{
+  meta: {
+    req: {
+      url: '/loginMsg.js',
+      headers: {
+        host: '172.16.174.70',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/loginMsg.js',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /loginMsg.js 404 1ms',
+  timestamp: '2025-08-25T05:14:05.680Z'
+}
+{
+  meta: {
+    req: {
+      url: '/cgi/get.cgi?cmd=home_login',
+      headers: {
+        host: '172.16.174.70',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/cgi/get.cgi?cmd=home_login',
+      query: { cmd: 'home_login' }
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /cgi/get.cgi?cmd=home_login 404 1ms',
+  timestamp: '2025-08-25T05:14:05.778Z'
+}
+{
+  meta: {
+    req: {
+      url: '/cgi-bin/param.cgi?get_device_conf',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/cgi-bin/param.cgi?get_device_conf',
+      query: { get_device_conf: '' }
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /cgi-bin/param.cgi?get_device_conf 404 1ms',
+  timestamp: '2025-08-25T05:14:05.870Z'
+}
+{
+  meta: {
+    req: {
+      url: '/cgi-bin/param.cgi?get_system_conf',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/cgi-bin/param.cgi?get_system_conf',
+      query: { get_system_conf: '' }
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /cgi-bin/param.cgi?get_system_conf 404 0ms',
+  timestamp: '2025-08-25T05:14:10.247Z'
+}
+{
+  meta: {
+    req: {
+      url: '/menu.env',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/menu.env',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /menu.env 404 1ms',
+  timestamp: '2025-08-25T05:14:10.666Z'
+}
+{
+  meta: {
+    req: {
+      url: '/cgi-bin/param.cgi?get_network_conf',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/cgi-bin/param.cgi?get_network_conf',
+      query: { get_network_conf: '' }
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /cgi-bin/param.cgi?get_network_conf 404 1ms',
+  timestamp: '2025-08-25T05:14:11.504Z'
+}
+{
+  meta: {
+    req: {
+      url: '/shell?ps',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/shell?ps',
+      query: { ps: '' }
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'GET /shell?ps 404 3ms',
+  timestamp: '2025-08-25T05:14:12.147Z'
+}
+{
+  meta: {
+    req: {
+      url: '//webs/sysTimeCfgEx',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'identity',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '149'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '//webs/sysTimeCfgEx',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'POST //webs/sysTimeCfgEx 404 0ms',
+  timestamp: '2025-08-25T05:14:12.276Z'
+}
+{
+  meta: {
+    req: {
+      url: '/cgi-bin/main-cgi?json={"cmd":264,"status":1,"bSelectAllPort":1,"stSelPort":0,"bSelectAllIp":1,"stSelIp":0,"stSelNicName":"%3bping%20-c%201%20-s%2041%20172.16.169.36%3b"}',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/cgi-bin/main-cgi?json={"cmd":264,"status":1,"bSelectAllPort":1,"stSelPort":0,"bSelectAllIp":1,"stSelIp":0,"stSelNicName":"%3bping%20-c%201%20-s%2041%20172.16.169.36%3b"}',
+      query: {
+        json: '{"cmd":264,"status":1,"bSelectAllPort":1,"stSelPort":0,"bSelectAllIp":1,"stSelIp":0,"stSelNicName":";ping -c 1 -s 41 172.16.169.36;"}'
+      }
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /cgi-bin/main-cgi?json={"cmd":264,"status":1,"bSelectAllPort":1,"stSelPort":0,"bSelectAllIp":1,"stSelIp":0,"stSelNicName":"%3bping%20-c%201%20-s%2041%20172.16.169.36%3b"} 404 0ms',
+  timestamp: '2025-08-25T05:14:13.357Z'
+}
+{
+  meta: {
+    req: {
+      url: '/cgi-bin/main-cgi?json={"cmd":264,"status":0,"bSelectAllPort":1,"stSelPort":0,"bSelectAllIp":1,"stSelIp":0,"stSelNicName":"%3bping%20-c%201%20-s%2041%20172.16.169.36%3b"}',
+      headers: {
+        host: '172.16.174.70:8001',
+        'user-agent': 'Avast Antivirus',
+        accept: '*/*',
+        'accept-encoding': 'deflate, gzip'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/cgi-bin/main-cgi?json={"cmd":264,"status":0,"bSelectAllPort":1,"stSelPort":0,"bSelectAllIp":1,"stSelIp":0,"stSelNicName":"%3bping%20-c%201%20-s%2041%20172.16.169.36%3b"}',
+      query: {
+        json: '{"cmd":264,"status":0,"bSelectAllPort":1,"stSelPort":0,"bSelectAllIp":1,"stSelIp":0,"stSelNicName":";ping -c 1 -s 41 172.16.169.36;"}'
+      }
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /cgi-bin/main-cgi?json={"cmd":264,"status":0,"bSelectAllPort":1,"stSelPort":0,"bSelectAllIp":1,"stSelIp":0,"stSelNicName":"%3bping%20-c%201%20-s%2041%20172.16.169.36%3b"} 404 1ms',
+  timestamp: '2025-08-25T05:14:14.557Z'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:8001',
+        connection: 'keep-alive',
+        'sec-ch-ua-platform': '"Windows"',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+        'sec-ch-ua': '"Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"',
+        'sec-ch-ua-mobile': '?0',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:8001/socket.io/?EIO=4&transport=polling&t=dnqwbqp9&sid=7GlnaSCQRoKqVTTMAABe',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 404 5ms',
+  timestamp: '2025-08-28T12:27:05.393Z'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:8001',
+        connection: 'keep-alive',
+        'sec-ch-ua-platform': '"Windows"',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+        'sec-ch-ua': '"Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"',
+        'sec-ch-ua-mobile': '?0',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:8001/socket.io/?EIO=4&transport=polling&t=eeu47j1y&sid=Ys5sj2vyrUkefcgMAAAE',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 6
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 404 6ms',
+  timestamp: '2025-09-04T12:45:55.369Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification/unique',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '464'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification/unique',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 6
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification/unique 400 6ms',
+  timestamp: '2025-09-04T12:48:53.954Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification/unique',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '464'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification/unique',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification/unique 400 1ms',
+  timestamp: '2025-09-04T12:57:30.115Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification/unique',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '464'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification/unique',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 6
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification/unique 400 6ms',
+  timestamp: '2025-09-04T13:23:10.413Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification/unique',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '320'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification/unique',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification/unique 400 1ms',
+  timestamp: '2025-09-04T13:28:10.449Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification/unique',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '464'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification/unique',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification/unique 400 1ms',
+  timestamp: '2025-09-04T13:35:12.892Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification/unique',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '320'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification/unique',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification/unique 400 0ms',
+  timestamp: '2025-09-04T13:35:38.610Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '540'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification 400 5ms',
+  timestamp: '2025-09-05T05:50:03.116Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '552'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification 400 0ms',
+  timestamp: '2025-09-05T05:54:25.953Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/v1/notification',
+      headers: {
+        host: 'localhost:8001',
+        'user-agent': 'GuzzleHttp/7',
+        'content-type': 'application/json',
+        'content-length': '552'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/v1/notification',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /api/v1/notification 400 1ms',
+  timestamp: '2025-09-05T05:56:41.256Z'
+}
