@@ -6,7 +6,7 @@ import {
   ORGANIZATION_GROUPS,
   RoleEnum,
 } from "../utils/constants";
-import { generateAuthChannel } from "@/v1/utils/utils";
+import { generateAuthChannel } from "../utils/utils";
 
 let io: Server | null = null;
 

@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { getIO } from "../config/socket";
 import { ALLOWED_PERMISSION_SOCKET } from "../utils/constants";
-import { generateAuthChannel } from "@/v1/utils/utils";
+import { generateAuthChannel } from "../utils/utils";
 
 export const notifyUsers = async (
   req: Request,

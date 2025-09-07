@@ -2,11 +2,11 @@ import express, { Application, Request, Response } from "express";
 import dotenv from "dotenv";
 import expressWinston from "express-winston";
 // Routes
-import notificationRoutes from "@/v1/routes/notification";
+import notificationRoutes from "./v1/routes/notification";
 import cors from "cors";
 import { createServer } from "http";
-import { registerSocketServer } from "@/v1/config/socket";
-import { logger } from "@/v1/config/logger";
+import { registerSocketServer } from "./v1/config/socket";
+import { logger } from "./v1/config/logger";
 
 //For env File
 dotenv.config();

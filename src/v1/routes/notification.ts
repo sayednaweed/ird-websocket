@@ -1,8 +1,8 @@
+import { Router } from "express";
 import {
   notifyUniqueUsers,
   notifyUsers,
-} from "@/v1/controller/notification-controller";
-import { Router } from "express";
+} from "../controller/notification-controller";
 
 const router: Router = Router();
 
