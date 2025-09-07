@@ -13,7 +13,7 @@ let io: Server | null = null;
 export const registerSocketServer = (server: any) => {
   io = new Server(server, {
     cors: {
-      origin: "http://localhost:5173", // ✅ exact origin, NOT '*'
+      origin: process.env.REACT_FRONTEND_URL ?? "http://localhost:5173", // ✅ exact origin, NOT '*'
       methods: ["GET", "POST"],
       credentials: true,
     },
@@ -47,6 +47,7 @@ export const registerSocketServer = (server: any) => {
     const role_id = socket.data.user.role_id;
     if (role_id == RoleEnum.organization) {
       socket.join(generateAuthChannel(ORGANIZATION_GROUPS.organizations, id));
+      socket.join(generateAuthChannel(ORGANIZATION_GROUPS.projects, id));
     } else if (role_id == RoleEnum.donor) {
     } else {
       const permissions = await redisService.getFormattedPermissions(id);

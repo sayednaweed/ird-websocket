@@ -18,8 +18,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173", // Vite frontend
-      "http://127.0.0.1:8000", // Laravel backend
+      process.env.REACT_FRONTEND_URL ?? "http://localhost:5173", // Vite frontend
+      process.env.LARAVEL_BACKEND_URL ?? "http://127.0.0.1:8000", // Laravel backend
     ],
     credentials: true,
   })

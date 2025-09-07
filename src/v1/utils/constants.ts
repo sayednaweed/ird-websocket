@@ -15,4 +15,5 @@ export const RoleEnum = {
 };
 export const ORGANIZATION_GROUPS = {
   organizations: "organizations",
+  projects: "projects",
 };
